@@ -2,7 +2,6 @@
 import sys
 import uuid  # Import UUID for unique filenames
 import time  # For introducing delay to ensure temp file is written
-from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
