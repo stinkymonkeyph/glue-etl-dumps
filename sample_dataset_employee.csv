@@ -1,0 +1,52 @@
+
+employee_id,first_name,last_name,email,department,job_title,salary,hire_date,nationality,age,gender,education_level,performance_score,manager_id
+1,John,Doe,john.doe@example.com,Engineering,Software Engineer,90000,2018-01-15,USA,30,Male,Bachelor's,85,10
+2,Jane,Smith,jane.smith@example.com,Marketing,Marketing Manager,75000,2019-03-22,Canada,28,Female,Master's,90,11
+3,Bob,Johnson,bob.johnson@example.com,Sales,Sales Executive,80000,2017-07-10,USA,45,Male,Bachelor's,88,12
+4,Emily,Davis,emily.davis@example.com,HR,HR Specialist,65000,2020-11-05,UK,25,Female,Bachelor's,92,13
+5,Michael,Brown,michael.brown@example.com,Finance,Financial Analyst,95000,2016-05-30,Australia,37,Male,Master's,87,14
+6,Linda,Miller,linda.miller@example.com,Legal,Legal Advisor,98000,2015-02-18,USA,42,Female,Doctorate,95,15
+7,James,Williams,james.williams@example.com,Operations,Operations Manager,85000,2018-09-12,USA,55,Male,Bachelor's,89,16
+8,Patricia,Jones,patricia.jones@example.com,IT,System Administrator,88000,2017-04-01,Germany,33,Female,Bachelor's,86,17
+9,Robert,Garcia,robert.garcia@example.com,Customer Support,Customer Support Rep,60000,2019-08-27,Mexico,29,Male,Associate's,80,18
+10,Mary,Martinez,mary.martinez@example.com,R&D,Research Scientist,105000,2016-12-14,Spain,40,Female,Doctorate,94,19
+11,David,Rodriguez,david.rodriguez@example.com,Engineering,Senior Software Engineer,92000,2017-03-03,Argentina,50,Male,Bachelor's,88,10
+12,Barbara,Hernandez,barbara.hernandez@example.com,Marketing,Content Strategist,77000,2018-05-08,Chile,27,Female,Bachelor's,85,11
+13,Richard,Lopez,richard.lopez@example.com,Sales,Sales Manager,82000,2019-07-19,Peru,34,Male,Bachelor's,90,12
+14,Susan,Gonzalez,susan.gonzalez@example.com,HR,HR Manager,67000,2020-09-25,Cuba,23,Female,Bachelor's,91,13
+15,Joseph,Wilson,joseph.wilson@example.com,Finance,Senior Financial Analyst,97000,2015-01-17,Ireland,60,Male,Master's,87,14
+16,Jessica,Anderson,jessica.anderson@example.com,Legal,Senior Legal Advisor,99000,2016-03-21,Norway,38,Female,Doctorate,93,15
+17,Thomas,Moore,thomas.moore@example.com,Operations,Logistics Coordinator,87000,2017-06-29,USA,41,Male,Bachelor's,86,16
+18,Laura,Scott,laura.scott@example.com,IT,Network Engineer,90000,2018-08-14,USA,30,Female,Bachelor's,88,17
+19,Charles,Young,charles.young@example.com,Customer Support,Technical Support Rep,62000,2019-11-30,UK,32,Male,Associate's,82,18
+20,Karen,Jackson,karen.jackson@example.com,R&D,Product Manager,107000,2016-04-12,USA,58,Female,Master's,90,19
+21,Christopher,Martin,christopher.martin@example.com,Engineering,DevOps Engineer,93000,2017-02-28,USA,27,Male,Bachelor's,87,10
+22,Nancy,Lee,nancy.lee@example.com,Marketing,Social Media Manager,78000,2018-05-05,China,26,Female,Bachelor's,84,11
+23,Daniel,Perez,daniel.perez@example.com,Sales,Account Manager,83000,2019-08-11,Mexico,31,Male,Bachelor's,89,12
+24,Lisa,Thompson,lisa.thompson@example.com,HR,Recruiter,68000,2020-10-15,USA,24,Female,Bachelor's,90,13
+25,Paul,White,paul.white@example.com,Finance,Accountant,85000,2015-12-22,Canada,55,Male,Bachelor's,85,14
+26,Sandra,Harris,sandra.harris@example.com,Legal,Paralegal,100000,2016-03-18,USA,39,Female,Bachelor's,92,15
+27,Mark,Clark,mark.clark@example.com,Operations,Supply Chain Analyst,88000,2017-06-02,USA,47,Male,Bachelor's,86,16
+28,Donna,Lewis,donna.lewis@example.com,IT,IT Support Specialist,91000,2018-09-07,UK,35,Female,Bachelor's,88,17
+29,Donald,Robinson,donald.robinson@example.com,Customer Support,Customer Success Manager,63000,2019-12-01,USA,29,Male,Bachelor's,83,18
+30,Michelle,Walker,michelle.walker@example.com,R&D,Data Scientist,108000,2016-05-10,Australia,45,Female,Master's,94,19
+31,George,Hall,george.hall@example.com,Engineering,QA Engineer,94000,2017-03-11,USA,51,Male,Bachelor's,87,10
+32,Carol,Allen,carol.allen@example.com,Marketing,SEO Specialist,79000,2018-06-14,USA,33,Female,Bachelor's,85,11
+33,Kenneth,King,kenneth.king@example.com,Sales,Sales Representative,84000,2019-09-23,USA,36,Male,Bachelor's,88,12
+34,Dorothy,Hernandez,dorothy.hernandez@example.com,HR,Compensation Analyst,69000,2020-11-17,Spain,22,Female,Bachelor's,90,13
+35,Steven,Wright,steven.wright@example.com,Finance,Financial Planner,99000,2015-04-25,USA,60,Male,Master's,86,14
+36,Kimberly,Lopez,kimberly.lopez@example.com,Legal,Corporate Lawyer,101000,2016-07-30,USA,40,Female,Doctorate,95,15
+37,Brian,Scott,brian.scott@example.com,Operations,Operations Analyst,89000,2017-10-06,Peru,38,Male,Bachelor's,87,16
+38,Elizabeth,Adams,elizabeth.adams@example.com,IT,Database Administrator,92000,2018-12-21,USA,30,Female,Bachelor's,88,17
+39,Ronald,Green,ronald.green@example.com,Customer Support,Support Engineer,64000,2019-03-15,USA,28,Male,Bachelor's,82,18
+40,Ashley,Baker,ashley.baker@example.com,R&D,UX Designer,109000,2016-06-28,USA,46,Female,Bachelor's,91,19
+41,Anthony,Parker,anthony.parker@example.com,Engineering,Frontend Developer,95000,2017-04-05,USA,35,Male,Bachelor's,86,10
+42,Betty,Carter,betty.carter@example.com,Marketing,Brand Manager,80000,2018-07-11,UK,32,Female,Bachelor's,85,11
+43,Kevin,Phillips,kevin.phillips@example.com,Sales,Sales Consultant,85000,2019-10-20,USA,49,Male,Bachelor's,89,12
+44,Helen,Turner,helen.turner@example.com,HR,Training Coordinator,70000,2020-12-05,Ireland,31,Female,Bachelor's,90,13
+45,Edward,Collins,edward.collins@example.com,Finance,Treasury Analyst,100000,2015-09-13,USA,63,Male,Master's,87,14
+46,Sharon,Stewart,sharon.stewart@example.com,Legal,Compliance Officer,102000,2016-08-19,USA,44,Female,Bachelor's,93,15
+47,Jason,Sanchez,jason.sanchez@example.com,Operations,Project Manager,90000,2017-11-27,USA,39,Male,Bachelor's,88,16
+48,Cynthia,Morris,cynthia.morris@example.com,IT,Security Analyst,93000,2018-02-03,Canada,36,Female,Bachelor's,89,17
+49,Matthew,Rogers,matthew.rogers@example.com,Customer Support,Helpdesk Technician,65000,2019-01-01,USA,25,Male,Associate's,81,18
+50,Amy,Reed,amy.reed@example.com,R&D,Data Analyst,110000,2016-09-22,France,29,Female,Master's,92,19
