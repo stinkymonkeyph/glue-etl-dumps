@@ -25,6 +25,8 @@ def main():
         .config("spark.sql.catalog.glue_catalog.warehouse", iceberg_warehouse_s3_path) \
         .config("spark.sql.catalog.glue_catalog.catalog-impl", "org.apache.iceberg.aws.glue.GlueCatalog") \
         .config("spark.sql.catalog.glue_catalog.io-impl", "org.apache.iceberg.aws.s3.S3FileIO") \
+        .config("spark.executor.memory", "4g") \
+        .config("spark.driver.memory", "4g") \
         .getOrCreate()
 
     # Create database if not exists
@@ -86,7 +88,7 @@ def main():
 
     # Insert data into table
     spark.sql(f"""
-    INSERT INTO glue_catalog.{database_name}.{table_name}
+    INSERT OVERWRITE glue_catalog.{database_name}.{table_name}
     SELECT * FROM employee_temp_view
     """)
 
