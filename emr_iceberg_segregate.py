@@ -1,5 +1,6 @@
+
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import concat_ws, col
+from pyspark.sql.functions import col
 import boto3
 import logging
 import sys
@@ -60,14 +61,8 @@ def main():
             # Filter by department
             df_department = df.filter(col("department") == department)
 
-            # Select required columns and create 'employee_name'
-            df_selected = df_department.select(
-                concat_ws(" ", col("first_name"), col(
-                    "last_name")).alias("employee_name"),
-                col("nationality"),
-                col("salary"),
-                col("performance_score")
-            )
+            # Select all columns
+            df_selected = df_department.select("*")
 
             # Repartition to optimize write performance
             df_selected = df_selected.repartition(1)
